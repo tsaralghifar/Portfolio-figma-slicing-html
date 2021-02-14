@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    height: 3691px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+a.link-sm {
+    color: #212529;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+.nav-link {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.illustrator {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.column-illustration {
+    position: absolute;
+    right: 0;
+    top: 207px;
+}
+
+h1.text-heading {
+    position: absolute;
+    width: 452px;
+    height: 384px;
+    left: 50px;
+    top: 234px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+
+    color: #212529;
+}
+
+p.kalimat-body1 {
+    position: absolute;
+    width: 773px;
+    height: 120px;
+    left: 50px;
+    top: 998px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+
+    color: #343A40;
+}
+
+p.kalimat-body2 {
+    position: absolute;
+    width: 773px;
+    height: 60px;
+    left: 50px;
+    top: 1162px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+
+    color: #343A40;
+}
+
+.background-port {
+    position: absolute;
+    width: 1440px;
+    height: 1192px;
+    left: 0px;
+    top: 1371px;
+    background: #1F1D2B;
+}
+
+.background-port h1{
+    position: absolute;
+    width: 265px;
+    height: 96px;
+    left: 50px;
+    top: 76px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.background-port p{
+    position: absolute;
+    width: 773px;
+    height: 30px;
+    left: 50px;
+    top: 188px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #808191;
+}
